@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="ACCOUNTANT"><span>A</span>CCOUNTANT</div>
+            <div class="search " >
+                <div class="search_box">
+                   <input  class="search_button" type="text" placeholder="   Search..">
+                   <button class="search_button">
+                    <img src="./search.svg" alt="search_icon">
+                   </button>
+                </div> 
+                <div class="settings">
+                    <img src="./setting.svg" alt="settings">
+                    <div class="notification_count">3</div>
+                    <img src="./notification.svg" alt="notification-bell">   
+                </div>
+            </div>
+            <div class="profile">
+                <img src="./profile.svg" alt="profile">
+                <select name="profile" id="profiles">
+                    <option value="profile1111">profile1111@client.com</option>
+                    <option value="profile2222">profile2222@client.com</option>
+                    <option value="profile3333">profile3333@client.com</option>
+                    <option value="profile4444">profile4444@client.com</option>
+                    <option value="profile5555">profile5555@client.com</option>
+                  </select>      
+            </div>
+        </div>
+        <div class="section">
+            <div class="left">
+                <ul>
+                    <li> <div class="colordashboard"></div><img src="./dashboard.svg" alt="">DASHBOARD</li>
+                    <li id="myClients" onclick="changeColor(this)"> <div class="colormyclients"></div><img id="myClients" src="./my clients.svg" alt="">MY CLIENTS</li>
+                    <li> <div class="colorreports"></div><img src="./reports.svg" alt="">REPORTS</li>
+                </ul>
+                <div class="left_bottom">
+                    <span>powered by</span>
+                    <img src="./powerby.svg" alt="company image">
+                    <p>copyrigth Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="right">
+            <div class="right_top"> 
+                <span class="span_clients"> Clients</span>
+                <div class="buttons">
+                    <button class="button"><img  src="./delete.svg" ></button>
+                    <button class="button"><img src="./edit.svg" ></button>
+                    <button class="button_add_client"><img src="./add clients.svg"> Add clients</button>    
+                </div>  
+            </div>
+            <div class="right_bottom">
+            <table>
+                <tr>
+                    <th class="check"><input type="checkbox" name=" "></td>
+                    <th><input type="text" placeholder="Name" class="inputs"></th>
+                    <th><input type="text" placeholder="Account Number" class="inputs"> </th>
+                    <th><input type="text" placeholder="Email" class="inputs"></th>
+                    <th><input type="number" placeholder="Phone Number" class="inputs"></th>
+                </tr>
+                <tr>
+                    <td class="check"><input type="checkbox" name=" "></td>
+                    <td>client1</td>
+                    <td>c1_1114567890</td>
+                    <td>c1_111@gmail.com</td>
+                    <td>1114567890</td>
+                </tr>
+                <tr>
+                    <td class="check"><input type="checkbox" name=" "></td>
+                    <td>client2</td>
+                    <td>c2_2224567890</td>
+                    <td>c2_222@gmail.com</td>
+                    <td>2224567890</td>
+                </tr>
+                <tr>
+                    <td class="check"><input type="checkbox" name=" "></td>
+                    <td>client3</td>
+                    <td>c3_3334567890</td>
+                    <td>c3_333@gmail.com</td>
+                    <td>3334567890</td>
+                </tr>
+                <tr>
+                    <td class="check"><input type="checkbox" name=" "></td>
+                    <td>client4</td>
+                    <td>c4_4444567890</td>
+                    <td>c4_444@gmail.com</td>
+                    <td>4444567890</td>
+                </tr>
+                <tr>
+                    <td class="check"><input type="checkbox" name=" "></td>
+                    <td>client5</td>
+                    <td>c5_5554567890</td>
+                    <td>c5_555@gmail.com</td>
+                    <td>5554567890</td>
+                </tr>
+                <tr>
+                    <td class="check"><input type="checkbox" name=" "></td>
+                    <td>client6</td>
+                    <td>c6_6664567890</td>
+                    <td>c6_666@gmail.com</td>
+                    <td>6664567890</td>
+                </tr>
+            </table>
+            </div>
+            <div class="more">
+                <img src="./more.svg" alt="to show more">
+            </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
